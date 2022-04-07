@@ -8852,6 +8852,9 @@ textarea.form-control {
   opacity: 0;
   visibility: hidden; }
 
+.wpb_button, .wpb_content_element{
+  padding: 40px;
+}
 .bg-primary {
   background: #1eaaf1 !important; }
 
