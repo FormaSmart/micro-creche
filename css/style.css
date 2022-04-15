@@ -8898,7 +8898,7 @@ textarea.form-control {
   font-size: 24px; }
 
 .ftco-section {
-  padding: 4em 0;
+  padding: 1em 0;
   position: relative; }
 
 .ftco-no-pt {
@@ -8911,9 +8911,8 @@ textarea.form-control {
   background: #3c312e; }
 
 .ftco-footer {
-  font-size: 14px;
   background: #232323;
-  padding: 6em 0; }
+ }
   .ftco-footer .ftco-footer-widget {
     width: 100%;
     display: block; }
@@ -9141,21 +9140,21 @@ textarea.form-control {
       transform: translateY(-50%);
       margin-top: -10px;
       outline: none !important;
-      -moz-transition: all 0.3s ease;
-      -o-transition: all 0.3s ease;
-      -webkit-transition: all 0.3s ease;
-      -ms-transition: all 0.3s ease;
-      transition: all 0.3s ease;
+      -moz-transition: all 0.4s ease;
+      -o-transition: all 0.4s ease;
+      -webkit-transition: all 0.4s ease;
+      -ms-transition: all 0.4s ease;
+      transition: all 0.4s ease;
       opacity: 0; }
       .testimony-section .owl-nav .owl-prev span:before,
       .testimony-section .owl-nav .owl-next span:before {
         font-size: 30px;
         color: rgba(0, 0, 0, 0.2);
-        -moz-transition: all 0.3s ease;
-        -o-transition: all 0.3s ease;
-        -webkit-transition: all 0.3s ease;
-        -ms-transition: all 0.3s ease;
-        transition: all 0.3s ease; }
+        -moz-transition: all 0.4s ease;
+        -o-transition: all 0.4s ease;
+        -webkit-transition: all 0.4s ease;
+        -ms-transition: all 0.4s ease;
+        transition: all 0.4s ease; }
       .testimony-section .owl-nav .owl-prev:hover span:before, .testimony-section .owl-nav .owl-prev:focus span:before,
       .testimony-section .owl-nav .owl-next:hover span:before,
       .testimony-section .owl-nav .owl-next:focus span:before {
