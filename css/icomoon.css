@@ -1524,6 +1524,7 @@
 }
 .icon-paper-plane:before {
   content: "\f1d8";
+  padding-left: 100px;
 }
 .icon-send:before {
   content: "\f1d8";
@@ -2031,6 +2032,7 @@
 }
 .icon-map:before {
   content: "\f279";
+  padding-left: 90px;
 }
 .icon-commenting:before {
   content: "\f27a";
@@ -2742,6 +2744,7 @@
 }
 .icon-phone2:before {
   content: "\e0cd";
+  padding-left: 192px;
 }
 .icon-call_end:before {
   content: "\e0b1";

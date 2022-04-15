@@ -7997,7 +7997,7 @@ h1, h2, h3, h4, h5,
       color: #fff; }
   .topper .text {
     width: calc(100% - 30px);
-    color: rgba(255, 255, 255, 0.7); }
+    color: rgb(255, 255, 255); }
 
 .ftco-navbar-light {
   background: transparent !important;
@@ -8385,19 +8385,31 @@ h1, h2, h3, h4, h5,
   background: #fff !important; }
 
 .bg-primary {
-  background: #1eaaf1; }
+  background:  #40b0f1;
+  text-align: center;
+}
+
+.bg-un {
+  background-image: url("img/puzzle-blue.jpg");
+}
 
 .bg-secondary {
-  background: #fda638 !important; }
+  background: #ffbe2800 !important; }
 
 .bg-tertiary {
-  background: #8cc152; }
+  background: #ffbe28; }
 
 .bg-quarternary {
-  background: #f1453d; }
+  background: #f1342a; }
+
+.bg-fourth {
+  background: #ffbe2800 !important; }
 
 .bg-fifth {
-  background: #5d50c6; }
+  background: #7060c6; }
+
+.bg-sixth {
+  background: #ffbe2800 !important; }
 
 .ftc-no-pb {
   padding-bottom: 0 !important; }
@@ -8856,7 +8868,7 @@ textarea.form-control {
   padding: 40px;
 }
 .bg-primary {
-  background: #1eaaf1 !important; }
+  background:  #40b0f1 !important; }
 
 .about-author .desc h3 {
   font-size: 24px; }
@@ -8888,7 +8900,7 @@ textarea.form-control {
       font-size: 22px;
       font-weight: 500; }
     .ftco-footer .ftco-footer-widget .logo {
-      color: #1eaaf1; }
+      color:  #40b0f1; }
       .ftco-footer .ftco-footer-widget .logo span {
         color: #fda638; }
     .ftco-footer .ftco-footer-widget ul li a span {
