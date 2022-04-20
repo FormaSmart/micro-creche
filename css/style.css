@@ -440,8 +440,9 @@ pre {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px; }
+  /*margin-right: -15px;
+  margin-left: -15px; */
+}
 
 .no-gutters {
   margin-right: 0;
@@ -6471,7 +6472,7 @@ button.bg-dark:focus {
 
 .mb-5,
 .my-5 {
-  margin-bottom: 3rem !important; }
+  margin-bottom: 1rem !important; }
 
 .ml-5,
 .mx-5 {
@@ -8892,8 +8893,8 @@ textarea.form-control {
   padding: 40px;
 }
 
-.bg-beauty {
-  background: url("img/puzzle.jpg");
+.puzzle {
+  width: 79.5em;
 }
 
 .bg-primary {
@@ -9760,6 +9761,4 @@ textarea.form-control {
   opacity: 0.2;
 }
 /*-- end of dropdown menu --*/
-
-
 
