@@ -8891,6 +8891,11 @@ textarea.form-control {
 .wpb_button, .wpb_content_element{
   padding: 40px;
 }
+
+.bg-beauty {
+  background: url("img/puzzle.jpg");
+}
+
 .bg-primary {
   background:  #40b0f1 !important; }
 
@@ -9755,3 +9760,6 @@ textarea.form-control {
   opacity: 0.2;
 }
 /*-- end of dropdown menu --*/
+
+
+
