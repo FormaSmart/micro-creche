@@ -9763,3 +9763,43 @@ textarea.form-control {
 }
 /*-- end of dropdown menu --*/
 
+/*-- Start of Mascotte --*/
+.et_pb_image img .et_pb_image_wrap {
+  display: inline-block;
+  position: relative;
+  max-width: 100%;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+img, span {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  background: 0 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  -webkit-text-size-adjust: 100%;
+}
+
+.et_pb_image_1 {
+  text-align: center;
+  margin-left: 0;
+}
+
+.et_pb_image {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  line-height: 0;
+}
+/*-- End of Mascotte --*/
+
+/*-- Start of strong --*/
+strong {
+  font-weight: 700;
+  color: #ff7f50;
+}
+/*-- End of strong --*/
