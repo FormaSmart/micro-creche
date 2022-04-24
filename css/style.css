@@ -8388,7 +8388,6 @@ h1, h2, h3, h4, h5,
 
 .bg-primary {
   background:  #40b0f1;
-  text-align: center;
 }
 
 .bg-secondary {
@@ -8609,7 +8608,7 @@ h1, h2, h3, h4, h5,
 .course {
   margin-bottom: 30px; }
   .course .text {
-    width: calc(100% - 250px); }
+    width: bgcalc(100% - 250px); }
     @media (max-width: 991.98px) {
       .course .text {
         width: 100%; } }
