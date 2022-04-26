@@ -8417,20 +8417,23 @@ h1, h2, h3, h4, h5,
   background:  #40b0f1;
 }
 
+.bg-primary {
+  background:  #1A5276 !important; }
+
 .bg-secondary {
   background: #ffbe2800 !important; }
 
 .bg-tertiary {
-  background: #ffbe28; }
+  background: #1F618D; }
 
 .bg-quarternary {
-  background: #f1342a; }
+  background: #2980B9; }
 
 .bg-fourth {
   background: #ffbe2800 !important; }
 
 .bg-fifth {
-  background: #7060c6; }
+  background: #2471A3; }
 
 .bg-sixth {
   background: #ffbe2800 !important; }
@@ -8454,7 +8457,7 @@ h1, h2, h3, h4, h5,
     color: #fff; }
     .btn.btn-primary:hover {
       border: 1px solid #1eaaf1;
-      background: transparent;
+      background: #005681;
       color: #1eaaf1; }
     .btn.btn-primary.btn-outline-primary {
       border: 1px solid #1eaaf1;
@@ -8465,7 +8468,7 @@ h1, h2, h3, h4, h5,
         background: #1eaaf1;
         color: #fff; }
   .btn.btn-white {
-    background: #fff;
+    background: #ffffff;
     border: 1px solid #fff;
     color: #1eaaf1; }
     .btn.btn-white:hover, .btn.btn-white:focus, .btn.btn-white:active {
@@ -8481,7 +8484,7 @@ h1, h2, h3, h4, h5,
       border-width: 1px;
       color: #fff; }
       .btn.btn-white.btn-outline-white:hover, .btn.btn-white.btn-outline-white:focus, .btn.btn-white.btn-outline-white:active {
-        background: #fff;
+        background: #fcfcfc;
         border-color: #fff;
         color: #1eaaf1; }
   .btn.btn-secondary {
@@ -8775,7 +8778,7 @@ h1, h2, h3, h4, h5,
   .pricing-entry p .price {
     font-weight: 900;
     font-size: 28px;
-    color: #1eaaf1;
+    color: #ffffff;
     -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
@@ -8925,8 +8928,7 @@ textarea.form-control {
   width: 79.5em;
 }
 
-.bg-primary {
-  background:  #40b0f1 !important; }
+
 
 .about-author .desc h3 {
   font-size: 24px; }
@@ -9858,3 +9860,4 @@ strong {
   max-height: 100px;
 }
 /*-- End of logo --*/
+
