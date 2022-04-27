@@ -6463,7 +6463,9 @@ button.bg-dark:focus {
 
 .mb-4,
 .my-4 {
-  margin-bottom: 1.5rem !important; }
+  margin-bottom: 1.5rem !important;
+  text-align: center;
+}
 
 .ml-4,
 .mx-4 {
@@ -8418,22 +8420,22 @@ h1, h2, h3, h4, h5,
 }
 
 .bg-primary {
-  background:  #1A5276 !important; }
+  background: #F39C12 !important; }
 
 .bg-secondary {
   background: #ffbe2800 !important; }
 
 .bg-tertiary {
-  background: #1F618D; }
+  background: #F5B041; }
 
 .bg-quarternary {
-  background: #2980B9; }
+  background: #F5B041; }
 
 .bg-fourth {
   background: #ffbe2800 !important; }
 
 .bg-fifth {
-  background: #2471A3; }
+  background: #F39C12; }
 
 .bg-sixth {
   background: #ffbe2800 !important; }
