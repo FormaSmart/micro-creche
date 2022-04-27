@@ -9856,9 +9856,10 @@ strong {
   text-decoration: none;
 }
 #header .logo img {
-  padding: 0;
   margin: auto;
   max-height: 100px;
+  padding-top: 15px;
+  padding-left: 125px;
 }
 /*-- End of logo --*/
 
