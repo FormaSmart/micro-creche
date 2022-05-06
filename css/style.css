@@ -10105,6 +10105,7 @@ h1 {
 }
 
 .overlay {
+  position: fixed;
   top: 0;
   bottom: 0;
   left: 0;
@@ -10120,7 +10121,7 @@ h1 {
 }
 
 .popup {
-  margin: 70px auto;
+  margin: auto;
   padding: 20px;
   background: #fff;
   border-radius: 5px;
