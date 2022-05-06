@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="css/magnific-popup.css">
 
     <link rel="stylesheet" href="css/aos.css">
+	<link href="css/glightbox.min.css" rel="stylesheet">
 
     <link rel="stylesheet" href="css/ionicons.min.css">
 
@@ -350,65 +351,33 @@
 	  <!-- END : Section Financement -->
 
 	  <!-- Section Formule -->
-    <!--<section id="formule" class="ftco-section">
+    <section id="formule" class="ftco-section">
     	<div class="container">
     		<div class="row justify-content-center mb-5 pb-2">
 			  <div class="col-md-8 text-center heading-section ftco-animate">
 				<h2 class="mb-4"><span>Nos</span> Formules</h2>
 			  </div>
 			</div>
-    	<div class="row">
+    	<div class="row portfolio-container" data-aos="fade-up" data-aos-delay="150">
+
         	<div class="col-md-6 col-lg-6 ftco-animate">
         		<div class="pricing-entry bg-light pb-4 text-center">
         			<div>
 	        			<h3 class="mb-3">Formule Classique</h3>
 						<p class="button text-center">
-							<a class="btn btn-primary px-4 py-3">
+							<a href="documentation/cpf.html" class="btn btn-primary px-4 py-3">
 								<span class="price">2 300 €</span> <span class="per">/ 100 h</span>
 							</a>
 						</p>
 	        		</div>
-					<div class="flex-container">
-						<div>1<br> lhilug;vlifvjhk:ogufvk:jgfc<br>lihugjvbjkhuigyfncg vhbj;hukgy</div>
-						<div>2<br> lhilug;vlifvjhk:ogufvk:jgfc<br>lihugjvbjkhuigyfncg vhbj;hukgy</div>
-					</div>
-					<div class="ang">
-						<div class="profile-card" style="position: center">
-							<div class="img">
-								<img src="img/bg_4.jpg" alt="elephant">
-							</div>
-							<div class="cap">
-								<h4><strong>Formation Générale :</strong></h4>
-								<p>
-									<i>Formation théorique (8 modules)</i><br>
-									<i>Formation pratique (4 modules)</i>
-								</p>
-								<h4><strong>Accompagnement :</strong></h4>
-								<p>
-									<i>Réalisation des plans projets</i><br>
-									<i>Dossier de présentation projet</i><br>
-									<i>Etude de besoins</i><br>
-									<i>Documents type projet d'établissement</i><br>
-									<i>Préparation aux RDV mairies, PMI, conseil départemental, banques, etc.</i><br>
-									<i>Réalisation du dossier d'agrément</i><br>
-									<i>Le local</i><br>
-									<i>Les financements</i><br>
-									<i>Projet d'établissement</i><br>
-									<i>Le personnel</i><br>
-									<i>Les plannings</i><br>
-									<i>La traçabilité </i><br>
-									<i>Les protocoles </i><br>
-									<i>La facturation et les devis</i><br>
-									<i>Règlement de fonctionnement</i><br>
-									<i>Le dossier ERP</i><br>
-									<i><strike>Réalisation prévisionnelle sur 3 ans</strike></i><br>
-									<i><strike>La création de la société</strike></i><br>
-									<i><strike>Formation HACCP de votre équipe</strike></i>
-								</p>
-							</div>
+					<div class="col-lg-4 col-md-6 portfolio-item">
+						<img src="img/bg_4.jpg" class="img-fluid" alt="" style="position: relative; left: 100px; top: 0;">
+						<div class="portfolio-info">
+							<a href="documentation/cpf.html" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link">click here</a>
+							<a href="documentation/cpf.html" class="details-link" title="More Details">don't click here</a>
 						</div>
 					</div>
-	        		<div class="img" style="background-image: url(img/bg_4.jpg); border-radius: 10px;"></div>
+	        		<!--<div class="img" style="background-image: url(img/bg_4.jpg); border-radius: 10px;"></div>
 	        		<div class="px-4">
 						<h4><strong>Formation Générale :</strong></h4>
 						<p>
@@ -437,7 +406,7 @@
 							<i><strike>La création de la société</strike></i><br>
 							<i><strike>Formation HACCP de votre équipe</strike></i>
 						</p>
-        			</div>
+        			</div>-->
         		</div>
         	</div>
 			<div class="col-md-6 col-lg-6 ftco-animate">
@@ -450,17 +419,7 @@
 							</a>
 						</p>
 					</div>
-					<div class="ang">
-						<div class="profile-card">
-							<div class="img">
-								<img src="img/bg_6.jpg" alt="cat">
-								<a href="documentation/cpf.html" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" ><i class="bx bx-plus" style="position: relative; left: 320px; top: 0;"></i></a>
-
-							</div>
-							<div class="cap">
-						</div>
-					</div>
-					<div class="img" style="background-image: url(img/bg_6.jpg); border-radius: 10px;"></div>
+					<!--<div class="img" style="background-image: url(img/bg_6.jpg); border-radius: 10px;"></div>
 					<div class="px-4">
 									<h4><strong>Formation Générale :</strong></h4>
 									<p>
@@ -489,11 +448,11 @@
 										<i><strong>La création de la société</strong></i><br>
 										<i><strong>Formation HACCP de votre équipe</strong></i>
 									</p>
-					</div>
+					</div>-->
 				</div>
 			</div>
         </div>
-    </section>-->
+    </section>
 	  <!-- END : Section Formule -->
 
 	  <!-- Section Information -->
@@ -651,7 +610,7 @@
 
 
   <!-- loader -->
-  <!--<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>-->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
 
 
   <script src="js/jquery.min.js"></script>
