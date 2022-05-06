@@ -5260,7 +5260,7 @@ button.bg-danger:focus {
   background-color: #bd2130 !important; }
 
 .bg-light {
-  background-color: #f8f9fa !important; }
+  background-color: rgb(248, 249, 250) !important; }
 
 a.bg-light:hover, a.bg-light:focus,
 button.bg-light:hover,
@@ -6421,7 +6421,7 @@ button.bg-dark:focus {
 
 .mr-2,
 .mx-2 {
-  margin-right: 0.5rem !important; }
+  margin-right: 20rem !important; }
 
 .mb-2,
 .my-2 {
@@ -8410,7 +8410,7 @@ h1, h2, h3, h4, h5,
 
 
 .bg-light {
-  background: #fafafa !important; }
+  background: transparent !important; }
 
 .bg-white {
   background: #fff !important; }
@@ -8522,17 +8522,40 @@ h1, h2, h3, h4, h5,
   background: #7060c6;
   border: 1px solid #7060c6;
   color: #fff; }
+
+.btn.btn-sixth{
+  background: #fba538;
+  border: 1px solid #fba538;
+  color: #fff;
+}
 .btn.btn-fifth:hover {
   border: 1px solid #7060c6;
   background: transparent;
   color: #7060c6; }
+
+.btn.btn-sixth:hover {
+  border: 1px solid #fba538;
+  background: transparent;
+  color: #fba538; }
+
 .btn.btn-fifth.btn-outline-primary {
   border: 1px solid #7060c6;
   background: transparent;
   color: #7060c6; }
+
+.btn.btn-sixth.btn-outline-primary {
+  border: 1px solid #fba538;
+  background: transparent;
+  color: #fba538; }
+
 .btn.btn-fifth.btn-outline-primary:hover {
   border: 1px solid transparent;
   background: #7060c6;
+  color: #fff; }
+
+.btn.btn-sixth.btn-outline-primary:hover {
+  border: 1px solid transparent;
+  background: #fba538;
   color: #fff; }
 
 .btn-custom {
@@ -8787,7 +8810,9 @@ h1, h2, h3, h4, h5,
     -ms-transition: all 0.3s ease;
     transition: all 0.3s ease; }
   .pricing-entry p .per {
-    font-size: 12px; }
+    font-size: 12px;
+    color: white;
+  }
   .pricing-entry .img {
     height: 250px;
     background-position: top center !important; }
@@ -10044,3 +10069,101 @@ strong {
     transform: rotate(360deg);
   }
 }
+
+
+/*-- Section Formule Profil --*/
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  background-color: DodgerBlue;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+/* Responsive layout */
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
+
+.profile-card{
+  position: relative;
+  font-family: sans-serif;
+  width: 220px;
+  height: 220px;
+  background: rgba(255, 255, 255, 0);
+  /*padding: 30px;*/
+  border-radius: 50%;
+  /*box-shadow: 0 0 22px #3336;*/
+  transition: .6s;
+  margin: 0 130px;
+}
+.profile-card:hover{
+  border-radius: 10px;
+  background-color: transparent;
+}
+.profile-card .img{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: .6s;
+  z-index: 99;
+}
+.profile-card:hover .img{
+  transform: translateY(0);
+}
+.img img{
+  width: 100%;
+  border-radius: 50%;
+  box-shadow: 0 0 22px #3336;
+  transition: .6s;
+}
+.profile-card:hover img{
+  border-radius: 10px;
+}
+.cap{
+  text-align: center;
+  transform: translateY(-80px);
+  opacity: 0;
+  transition: .6s;
+}
+.profile-card:hover .cap{
+  opacity: 1;
+  height: 40px;
+  padding-top: 10%;
+  text-align: center;
+}
+
+.cap h3{
+  font-size: 21px;
+  font-family: sans-serif;
+}
+.cap p{
+  font-size: 15px;
+  color: #0a0a0a;
+  font-family: sans-serif;
+  margin: 2px 0 9px 0;
+}
+
+.preview-link {
+  position: absolute;
+  right: 40px;
+  font-size: 24px;
+  top: calc(50% - 18px);
+  color: #333333;
+}
+
+.preview-link:hover{
+  color: #fd6a00;
+}
+
+/*-- END : Section Formule Profil */
