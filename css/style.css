@@ -1058,7 +1058,7 @@ pre {
     max-width: 91.66667%; }
   .col-lg-12 {
     -webkit-box-flex: 0;
-    padding-left: 210px;
+    padding-left: 110px;
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 100%; }
@@ -6477,7 +6477,9 @@ button.bg-dark:focus {
 
 .mt-5,
 .my-5 {
-  margin-top: 3rem !important; }
+  margin-top: 3rem !important;
+  margin-left: 4rem !important;
+}
 
 .mr-5,
 .mx-5 {
@@ -8794,7 +8796,7 @@ h1, h2, h3, h4, h5,
     .pricing-entry {
       margin-bottom: 30px; } }
   .pricing-entry > div {
-    padding: 20px; }
+    padding: 0; }
     .pricing-entry > div p {
       margin-bottom: 0; }
   .pricing-entry h3 {
@@ -8965,7 +8967,7 @@ textarea.form-control {
   position: relative; }
 
 .ftco-no-pt {
-  padding-top: 0; }
+  padding-top: 10%; }
 
 .ftco-no-pb {
   padding-bottom: 0; }
@@ -10108,7 +10110,6 @@ h1 {
 .overlay {
   position: fixed;
   top: 0;
-  bottom: 0;
   left: 0;
   right: 0;
   background: rgba(0, 0, 0, 0.7);
@@ -10162,3 +10163,78 @@ h1 {
   }
 }
 /*-- END : Section Formule Profil */
+
+/*--------------------------------------------------------------
+# Contact
+--------------------------------------------------------------*/
+section.contact-us {
+  background-image: url(../images/footer-bg.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0px;
+  position: relative;
+}
+
+section.contact-us:after {
+  position: absolute;
+  content: '';
+  background-image: url(../images/footer-left-dec.png);
+  left: 0px;
+  top: 60px;
+  width: 267px;
+  height: 396px;
+  z-index: 1;
+}
+
+section.contact-us .contact-info {
+  background-color: #fff;
+  margin-top: -30px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05);
+  border-radius: 15px;
+  z-index: 5;
+  position: relative;
+  padding: 20px;
+}
+
+section.contact-us .contact-info .icon i {
+  float: left;
+  margin-right: 15px;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 50%;
+  background: rgb(255, 136, 0);
+  background: linear-gradient(-145deg, rgb(252, 134, 1) 0%, rgba(246,191,159,1) 100%);
+  color: #fff;
+}
+
+section.contact-us .contact-info h4 {
+  font-size: 18px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+section.contact-us .contact-info span {
+  font-size: 15px;
+  color: #dc8cdb;
+  font-weight: 700;
+}
+
+section.contact-us .section-heading {
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+section.contact-us #contact {
+  margin-left: -100px;
+  position: relative;
+  z-index: 5;
+  background-color: #fff;
+  margin-top: 40px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05);
+  border-radius: 15px;
+  padding: 40px;
+}
