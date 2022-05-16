@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="fr"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="fr"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="fr"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="fr">
+<!--<![endif]-->
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+
+    <title>Processus OPCO</title>
+
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/stroke.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <link rel="stylesheet" type="text/css" href="js/syntax-highlighter/styles/shCore.css" media="all">
+    <link rel="stylesheet" type="text/css" href="js/syntax-highlighter/styles/shThemeRDark.css" media="all">
+
+    <!-- CUSTOM -->
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+
+</head>
+
+<body>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-chevron-up" aria-hidden="true"></i></button>
+
+<script>
+    var mybutton = document.getElementById("myBtn");
+    window.onscroll = function() {scrollFunction()};
+    function scrollFunction() {
+        if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+    }
+    function topFunction() {
+        window.scrollTo({ top: 0, behavior: 'smooth' })
+        document.documentElement.scrollTo({ top: 0, behavior: 'smooth' })
+    }
+
+    document.addEventListener("DOMContentLoaded", () => {
+        document.querySelector('#mode').addEventListener('click',()=>{
+            document.querySelector('html').classList.toggle('dark');
+        })
+    });
+
+
+</script>
+
+<div id="wrapper">
+
+    <div id="mode" >
+        <div class="dark">
+            <svg aria-hidden="true" viewBox="0 0 512 512">
+                <title>lightmode</title>
+                <path fill="currentColor" d="M256 160c-52.9 0-96 43.1-96 96s43.1 96 96 96 96-43.1 96-96-43.1-96-96-96zm246.4 80.5l-94.7-47.3 33.5-100.4c4.5-13.6-8.4-26.5-21.9-21.9l-100.4 33.5-47.4-94.8c-6.4-12.8-24.6-12.8-31 0l-47.3 94.7L92.7 70.8c-13.6-4.5-26.5 8.4-21.9 21.9l33.5 100.4-94.7 47.4c-12.8 6.4-12.8 24.6 0 31l94.7 47.3-33.5 100.5c-4.5 13.6 8.4 26.5 21.9 21.9l100.4-33.5 47.3 94.7c6.4 12.8 24.6 12.8 31 0l47.3-94.7 100.4 33.5c13.6 4.5 26.5-8.4 21.9-21.9l-33.5-100.4 94.7-47.3c13-6.5 13-24.7.2-31.1zm-155.9 106c-49.9 49.9-131.1 49.9-181 0-49.9-49.9-49.9-131.1 0-181 49.9-49.9 131.1-49.9 181 0 49.9 49.9 49.9 131.1 0 181z"></path>
+            </svg>
+        </div>
+        <div class="light">
+            <svg aria-hidden="true" viewBox="0 0 512 512">
+                <title>darkmode</title>
+                <path fill="currentColor" d="M283.211 512c78.962 0 151.079-35.925 198.857-94.792 7.068-8.708-.639-21.43-11.562-19.35-124.203 23.654-238.262-71.576-238.262-196.954 0-72.222 38.662-138.635 101.498-174.394 9.686-5.512 7.25-20.197-3.756-22.23A258.156 258.156 0 0 0 283.211 0c-141.309 0-256 114.511-256 256 0 141.309 114.511 256 256 256z"></path>
+            </svg>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <section id="top" class="section docs-heading">
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="big-title text-center">
+                        <h1>Processus OPCO</h1>
+                        <p>Merci pour votre confiance et bonne formation.<br>
+                            En cas de difficulté, n'hésitez pas à nous contacter par mail à l'adresse :<br>
+                            <strong>vdubois@formasmart.com</strong></p>
+                    </div>
+                    <!-- end title -->
+                </div>
+                <!-- end 12 -->
+            </div>
+            <!-- end row -->
+
+            <hr>
+
+        </section>
+        <!-- end section -->
+
+        <div class="row">
+
+            <div class="col-md-3">
+                <nav class="docs-sidebar" data-spy="affix" data-offset-top="300" data-offset-bottom="200" role="navigation">
+                    <ul class="nav">
+                        <li><a href="#line1">Prise en charge OPCO (ex-OPCA) : utilité des cotisations</a></li>
+                        <li><a href="#line2">Quels sont les frais pris en charge par l'OPCO (ex-OPCA) ?</a></li>
+                    </ul>
+                </nav >
+            </div>
+            <div class="col-md-9">
+                <section class="welcome">
+
+                    <div class="row">
+                        <div class="col-md-12 left-align">
+                            <h2 class="dark-text">Introduction<hr></h2>
+                            <div class="row">
+
+                                <div class="col-md-12 full">
+                                    <div class="intro1">
+                                        <ul>
+                                            <li><strong>Entreprise : </strong>FORMA SMART</li>
+                                            <li><strong>Diriger par : </strong>Jean-Phillippe BROWN et Valentin DUBOIS</li>
+
+                                            <p>
+                                                Les entreprises ont l'obligation de verser une cotisation formation professionnelle.
+                                                Celle-ci est versée à l'OPCO auquel est rattachée l'entreprise.<br>
+                                                Le 1er janvier 2019, les organismes paritaires collecteurs agréés (OPCA) sont devenus des opérateurs de compétences (OPCO).
+                                                Par ailleurs, depuis le 1er janvier 2019, la contribution unique à la formation professionnelle et à l'alternance rassemble la contribution à la formation professionnelle et la taxe d'apprentissage (loi n° 2018-771 du 5 septembre 2018 pour la liberté de choisir son avenir professionnel).
+                                            </p>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- end row -->
+                        </div>
+                    </div>
+                </section>
+
+                <section id="line1" class="section">
+
+                    <div class="row">
+                        <div class="col-md-12 left-align">
+                            <h2 class="dark-text">Prise en charge OPCO (ex-OPCA) : utilité des cotisations<hr></h2>
+                        </div>
+                        <!-- end col -->
+                    </div>
+                    <!-- end row -->
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h3>Les OPCO (opérateurs de compétences) rassemblent une partie ou la totalité des
+                                contributions versées par les entreprises au titre du financement de la formation
+                                professionnelle. Cela concerne le plan de développement des compétences
+                                <strong>(ex-plan de formation)</strong>, les <strong>formations professionnelles en apprentissage</strong>,
+                                les <strong>formations en contrat de professionnalisation.</strong>.</h3>
+                        </div>
+                        <!-- end col -->
+                    </div>
+                    <!-- end row -->
+                </section>
+                <!-- end section -->
+
+                <section id="line2" class="section">
+
+                    <div class="row">
+                        <div class="col-md-12 left-align">
+                            <h2 class="dark-text">Quels sont les frais pris en charge par l'OPCO (ex-OPCA) ? <hr></h2>
+                        </div>
+                        <!-- end col -->
+                    </div>
+                    <!-- end row -->
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h3>
+                                Selon, les différents dispositifs, l'OPCO prend en charge :
+                            </h3>
+
+                            <h4>
+                                <strong>Dans le cadre d'un contrat de professionnalisation</strong>
+                            </h4>
+
+                            <h3>
+                                L’OPCO finance le contrat de professionnalisation selon un niveau de prise en charge
+                                fixé par les branches ou par un accord collectif.<br><br>
+
+                                La prise en charge s'effectue sous la forme d'un montant forfaitaire couvrant tout ou
+                                partie des frais pédagogiques, des rémunérations et charges sociales légales et
+                                conventionnelles des stagiaires, des frais de transport et d’hébergement.<br><br>
+
+                                Pour les entreprises de moins de 50 salariés, l'OPCO peut prendre en charge les dépenses
+                                au-delà des montants forfaitaires dans le cadre des fonds affectés au développement des
+                                compétences au bénéfice des entreprises de moins de 50 salariés selon des conditions
+                                définies par le conseil d'administration de l'OPCO.<br><br>
+                            </h3>
+
+                            <h4>
+                                <strong>Dans le cadre des actions de reconversion ou promotion par l’alternance (ProA)</strong>
+                            </h4>
+
+                            <h3>
+                                Durant cette période, la rémunération du salarié est maintenue par l'employeur
+                                (<strong>article L. 6324-8 du Code du travail</strong>).<br><br>
+
+                                Cette action de formation peut avoir lieu en dehors du temps de travail sous réserve
+                                (<strong>article L. 6321-6 du Code du travail</strong>, modifié par la loi n° 2018-771 du 5 septembre
+                                2018) :<br><br>
+
+                                <img src="https://img.icons8.com/plumpy/16/000000/asterisk.png"/> soit d'un accord
+                                collectif d’entreprise ou d'un accord de branche ;<br>
+                                <img src="https://img.icons8.com/plumpy/16/000000/asterisk.png"/> soit de l'accord
+                                individuel écrit de chaque salarié concerné, dans la limite de trente heures par an et
+                                par salarié (ou de 2 % du forfait pour les salariés dont la durée de travail est fixée
+                                par une convention de forfait en jours ou en heures sur l’année). Cet accord peut être
+                                dénoncé par le salarié dans un délai de huit jours à compter de sa conclusion.<br><br>
+
+                                Dans ce cas, les heures de formation ne sont pas rémunérées. Le <strong>décret n° 2018-1229 du
+                                24 décembre 2018</strong> a supprimé l’obligation de verser l’allocation de formation par
+                                l’employeur dans le cadre de la formation suivie hors temps de travail.<br></br>
+
+                                En ce qui concerne l'entreprise, une partie du financement lié à l'exercice de la
+                                fonction tutorale peut être prise en charge par l'OPCO, dans la limite d'un plafond
+                                mensuel et par bénéficiaire et d'une durée maximale de 6 mois<br><br>
+
+                                Le niveau de prise en charge est fixé par un accord de branche ou par un accord
+                                collectif. La prise en charge s'effectue sous la forme d'un montant forfaitaire
+                                couvrant tout ou partie des frais pédagogiques ainsi que les frais de transport et
+                                d’hébergement. Pour les entreprises de moins de 50 salariés, l'OPCO peut prendre en
+                                charge les dépenses au-delà des montants forfaitaires dans le cadre des fonds affectés
+                                au développement des compétences au bénéfice des entreprises de moins de 50 salariés
+                                selon des conditions définies par le conseil d'administration de l'OPCO.<br>
+                            </h3>
+
+                            <h4>
+                                <strong>Dans le cadre des dépenses de tutorat et de formation pédagogique des maîtres
+                                d'apprentissage</strong>
+                            </h4>
+
+                            <h3>
+                                L'OPCO prend en charge les dépenses de tutorat et de formation pédagogique des maîtres
+                                d'apprentissage pour les entreprises de moins de 11 salariés.<br><br>
+
+                                Les dépenses sont prises en charge à hauteur de maximum 15 € par heure de formation
+                                dans la limite de 40 heures. Elles sont limitées à 230 € par mois et par salarié pour
+                                une durée maximale de 6 mois dans le cadre d’un tutorat et de 12 mois pour un maître
+                                d’apprentissage.<br>
+                            </h3>
+
+                            <h4>
+                                <strong>Dans le cadre du compte personnel de formation (ex-DIF)</strong>
+                            </h4>
+
+                            <h3>
+                                Le <strong>compte personnel de formation</strong> (CPF) a remplacé le DIF le 1er janvier 2015.<br><br>
+
+                                Depuis le 1er décembre 2019, l'instruction et le financement des dossiers CPF sont
+                                assurés par la Caisse des dépôts et consignations (CDC) et non plus par les OPCO.<br><br>
+
+                                <strong>Pour un salarié en CDI</strong>, les frais de formation et l'allocation de
+                                formation sont à la charge de l'entreprise du salarié et sont imputés sur la
+                                participation au développement de la formation continue. Néanmoins, l'employeur pouvait
+                                demander à son OPCO (ex-OPCA) la prise en charge des frais liés à la formation, tout
+                                dépendait du caractère prioritaire ou non de l'action de formation. Dans le cas d'action
+                                prioritaire, cela pouvait être les frais pédagogiques, les frais de transport et
+                                d'hébergement. Toutefois, l'OPCO pouvait refuser de prendre en charge totalement ou
+                                partiellement les frais susvisés. Dans ce cas, ces derniers étaient à la charge de
+                                l'employeur.<br><br>
+
+                                <strong>Pour les salariés en CDD</strong>, c'est l'OPCO qui prenait en charge les frais
+                                de formation, de transport et d'hébergement ainsi que l'allocation de formation due au
+                                salarié sachant que l'employeur verse sa contribution à l'OPCO pour les
+                                salariés en CDD.<br><br>
+
+                                La prise en charge des frais de formation par l'OPCO se faisait dans la limite des
+                                droits inscrits sur le compte personnel de formation (CPF). Toutefois, le conseil
+                                d'administration des OPCO pouvait décider de financer l'abondement du compte personnel
+                                de formation avec la contribution relative au CPF.<br><br>
+                            </h3>
+                        </div>
+                        <!-- end col -->
+                    </div>
+                    <!-- end row -->
+                </section>
+                <!-- end section -->
+
+
+
+                <section id="line11" class="section">
+
+                    <div class="row">
+                        <div class="col-md-12 left-align">
+                            <h2 class="dark-text">Copyright<hr></h2>
+                        </div>
+                        <!-- end col -->
+                    </div>
+                    <!-- end row -->
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h3>Fait par Forma Smart</h3>
+
+                        </div>
+                    </div>
+                    <!-- end row -->
+
+                </section>
+                <!-- end section -->
+            </div>
+            <!-- // end .col -->
+
+        </div>
+        <!-- // end .row -->
+
+    </div>
+    <!-- // end container -->
+
+</div>
+<!-- end wrapper -->
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/retina.js"></script>
+<script src="js/jquery.fitvids.js"></script>
+<script src="js/wow.js"></script>
+<script src="js/jquery.prettyPhoto.js"></script>
+
+<!-- CUSTOM PLUGINS -->
+<script src="js/custom.js"></script>
+<script src="js/main.js"></script>
+
+<script src="js/syntax-highlighter/scripts/shCore.js"></script>
+<script src="js/syntax-highlighter/scripts/shBrushXml.js"></script>
+<script src="js/syntax-highlighter/scripts/shBrushCss.js"></script>
+<script src="js/syntax-highlighter/scripts/shBrushJScript.js"></script>
+
+</body>
+
+</html>
