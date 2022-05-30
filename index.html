@@ -24,6 +24,7 @@
 	<link rel="stylesheet" href="css/flaticon.css">
 	<link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cookie.css">
 
 	  <!-- Favicon  -->
 	<link rel="icon" href="img/logo1.png">
@@ -524,7 +525,7 @@
 			  </div>
 		  </div>
 
-		  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83992.44055367229!2d2.3433585081947292!3d48.862714939764935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e67223ee923c2d%3A0xbb432ec184bbdfdf!2s5%20Rue%20de%20Vimoutiers%2C%2075013%20Paris!5e0!3m2!1sfr!2sfr!4v1652706000470!5m2!1sfr!2sfr" " width="100%" height="420px" frameborder="0" style="border:0; border-radius: 15px; position: relative; z-index: 2;" allowfullscreen=""></iframe>
+		  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83992.44055367229!2d2.3433585081947292!3d48.862714939764935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e67223ee923c2d%3A0xbb432ec184bbdfdf!2s5%20Rue%20de%20Vimoutiers%2C%2075013%20Paris!5e0!3m2!1sfr!2sfr!4v1652706000470!5m2!1sfr!2sfr "width="100%" height="420px" frameborder="0" style="border:0; border-radius: 15px; position: relative; z-index: 2;" allowfullscreen=""></iframe>
 		  <div class="row">
 			  <div class="col-lg-3 offset-lg-1">
 				  <div class="contact-info">
@@ -661,12 +662,43 @@
     </footer>
 	  <!-- END : Footer -->
 
+  <script src="https://cdn.jsdelivr.net/gh/manucaralmo/GlowCookies@3.1.7/src/glowCookies.min.js"></script>
+  <script>
+	  glowCookies.start('fr', {
+		  style: 2,
+		  analytics: 'G-FH87DE17XF',
+		  facebookPixel: '990955817632355',
+		  hideAfterClick: true,
+		  border: 'none',
+		  position: 'right',
+		  policyLink: 'https://google.fr',
+		  customScript: [{ type: 'custom', position: 'body', content: `console.log('my custom js');` }],
+		  bannerDescription: 'Nous utilisons des cookies pour analyser vos préférences en ligne &amp; personnaliser le contenu de l\'annonce.\n' +
+				  'Vous acceptez notre ',
+		  bannerLinkText: 'Cookie.',
+		  bannerBackground: '#fffbfb',
+		  bannerColor: '#000000',
+		  bannerHeading: '<h2>Ce site web utilise des cookies</h2>',
+		  acceptBtnText: 'Accepter',
+		  acceptBtnColor: 'black',
+		  acceptBtnBackground: 'Orange',
+		  rejectBtnText: 'Refuser',
+		  rejectBtnBackground: 'lightblue',
+		  rejectBtnColor: 'black',
+		  manageColor: 'white',
+		  manageBackground: 'blue',
+		  manageText: 'cookies text'
+	  });
+  </script>
+
+
 
 
   <!-- loader -->
   <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
 
 
+  <script src="js/glowCookies.js"></script>
   <script src="js/jquery.min.js"></script>
   <script src="js/jquery-migrate-3.0.1.min.js"></script>
   <script src="js/popper.min.js"></script>
